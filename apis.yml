@@ -1,4 +1,16 @@
 aid: solvo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solvo.png
 name: Solvo
 description: 'Solvo is a company surfaced as a portfolio company of index-ventures and added to the API
   Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
@@ -25,3 +37,10 @@ maintainers:
 common:
 - type: Website
   url: http://solvo.finance
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: solvo.finance is a parked GoDaddy domain (parking lander); no company website,
+    docs, or API surface found. No artifacts fabricated.
